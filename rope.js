@@ -15,7 +15,7 @@ display(){
     var pointA=this.rope.bodyA.position;
     var pointB=this.rope.bodyB.position;
     strokeWeight(2);
-    var Anchor1X =pointA.x
+    var Anchor1X =pointA.y
     var Anchor1Y=pointB.y
 
     var Anchor2X=pointB.x+this.offsetX
